@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 180%;
+    color: #666;
+    text-align: center;
+}
+
+.parallax_hero {
+    background: url(wick4.jpg);
+    min-height: 100%;
+}
+
+.parallax_body {
+    background: url(wick1.jpg);
+    min-height: 80%;
+}
+
+.parallax_body2{
+    background: url(wick2.jpg);
+    min-height: 80%;
+}
+
+.parallax_body3{
+    background: url(wick3.jpg);
+    min-height: 100%;
+}
+
+.parallax_hero, .parallax_body, .parallax_body2, .parallax_body3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax_hero_heading{
+    position: absolute;
+    color: #fff;
+    font-size: 500%;
+    width: 100%;
+    top: 40%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.parallax_body_heading, .parallax_body2_heading{
+    position: absolute;
+    color: #fff;
+    line-height: 1.6rem;
+    text-align: right;
+    width: 30%;
+    padding: 1rem;
+    font-style: italic;
+}
+
+.parallax_body3_heading{
+    position: absolute;
+    color: #fff;
+    line-height: 1.6rem;
+    text-align: right;
+    padding: 1rem;
+    font-style: italic;
+    top: 40%;
+    left: 10%;
+}
+
+.parallax_body_heading{
+    top: 5%;
+    right: 0%;
+}
+
+.parallax_body2_heading{
+    color: black;
+    left: 0%;
+}
+
+.footer {
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    padding: .5rem;
+    color: blanchedalmond;
+}
